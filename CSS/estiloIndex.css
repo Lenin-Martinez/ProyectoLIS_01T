@@ -1,0 +1,112 @@
+header
+{
+    background-color: #2FAF63;
+
+    height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer
+{
+    background-color: #2FAF63;
+
+    height: 115px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body
+{
+    background-color: darkslategrey;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.Logo
+{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.Textos
+{
+    float: left;
+    width: 380px;
+    height: 150px;
+}
+.Nombre
+{
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.Eslogan
+{
+    font-size: 20px;
+    padding-left: 15%;
+}
+
+.Iniciar
+{
+    float: left;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 35%;
+    color: black;
+    text-decoration: none;
+}
+.Registrar
+{
+    float: left;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 2%;
+    color: black;
+    text-decoration: none;
+}
+.Informacion
+{
+    float: left;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 3%;
+    color: black;
+    text-decoration: none;
+}
+
+.Copyright
+{
+    float: left;
+    width: 150px;
+    height: 60px;
+    padding-top: 2%;
+    text-align: center;
+    margin-left: 2%;
+}
+.Contacto
+{
+    float: left;
+    width: 90px;
+    height: 60px;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 75%;
+    color: black;
+    text-decoration: none;
+}
+.BarraMenu
+{
+    background-color: #B2ED33;
+
+    text-align: center;
+}
+.OpcionBarra
+{
+    color: black;
+    text-decoration: none;
+    margin-left: 3%;
+}
