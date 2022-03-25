@@ -1,6 +1,4 @@
 # ProyectoLIS_01T
-
-# ProyectoLIS_01T
 Sitio web de una veterinaria que busca ofrecer sus productos y servicios.
 
 #### Integrantes del proyecto:
