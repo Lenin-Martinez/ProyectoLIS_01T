@@ -2,9 +2,9 @@
 Sitio web de una veterinaria que busca ofrecer sus productos y servicios.
 
 #### Integrantes del proyecto:
-Marroquín Echegoyen, Erika Alondra – ME180102
-Martínez Huezo, Lenin Steven – MH180095
-Granados González, Samuel Alejandro – GG150384
+- Marroquín Echegoyen, Erika Alondra – ME180102
+- Martínez Huezo, Lenin Steven – MH180095
+- Granados González, Samuel Alejandro – GG150384
 
 #### Enlaces de interes
 
