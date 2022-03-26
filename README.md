@@ -1,7 +1,7 @@
 # ProyectoLIS_01T
 Sitio web de una veterinaria que busca ofrecer sus productos y servicios.
 
-#### Integrantes del proyecto:
+#### Autores:
 - Marroquín Echegoyen, Erika Alondra – ME180102
 - Martínez Huezo, Lenin Steven – MH180095
 - Granados González, Samuel Alejandro – GG150384
