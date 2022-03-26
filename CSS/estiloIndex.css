@@ -7,7 +7,6 @@ header
 footer
 {
     background-color: #34B5AA;
-
     height: 115px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -24,12 +23,14 @@ body
     width: 10%;
     height: 10%;
 }
+
 .Textos
 {
     float: left;
     width: 380px;
     height: 150px;
 }
+
 .Nombre
 {   
     padding-left: 5%;
@@ -71,22 +72,25 @@ body
     color: black;
     text-decoration: none;
 }
+
 .Copyright
 {
     float: left;
-    width: 300px;
+    width: 60%;
     padding-top: 2%;
     padding-right: 2px;
     margin-left: 2%;
     font-weight: bold;
+    font-size: 12px;
 }
+
 .Contacto
 {
     float: left;
     width: 90px;
     height: 60px;
     text-align: center;
-    margin-left: 65%;
+    margin-left: 25%;
     color: black;
     text-decoration: none;
     font-weight: bold;
