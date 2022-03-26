@@ -18,4 +18,4 @@ Sitio web de una veterinaria que busca ofrecer sus productos y servicios.
 
 ------------
 #### Licencias implementadas
-[Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0) ](http://creativecommons.org/licenses/by-nc/4.0/deed.es"Atribución-NoComercial-CompartirIgual 4.0Internacional (CC BY-NC-SA 4.0) ")
+[Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0) ](http://creativecommons.org/licenses/by-nc/4.0/deed.es "Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0) ")
