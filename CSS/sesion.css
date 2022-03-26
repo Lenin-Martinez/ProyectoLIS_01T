@@ -1,0 +1,58 @@
+
+
+/*Campos de usuaro y contraseña (Diseño)*/
+.campo {
+    /*Bordes*/
+    border-radius: 8px;
+    border-color: rgba(8, 7, 7, 0.342);
+
+    /*Fondo*/
+    background: rgb(255, 255, 255);
+
+    /*Texto*/
+    font-size: 20px;
+
+    /*Dimensiones*/
+    height: 2em;
+    width: 35%;
+
+    /*Margenes*/
+    margin-bottom: 0.5em;
+}
+
+.boton1 {
+    /*Margenes*/
+    margin-top: 1em;
+
+    /*Texto*/
+    color: rgb(255, 255, 255);
+    font-family: 'Tahoma';
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+
+    /*Elemento boton*/
+    background:#A13842;
+    width: 250px;
+    height: 50px;
+
+    /*Borde del elemento boton*/
+    border-radius: 8px;
+    border-color: transparent;
+
+}
+
+.section1{
+    text-align: center;
+}
+
+
+.camponame{
+    text-align: left;
+    font-family: 'Tahoma';
+    font-size: 22px;
+    margin-bottom: 2px;
+    color: white;
+    text-align: center;
+
+}

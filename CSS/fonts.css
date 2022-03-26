@@ -1,0 +1,12 @@
+/*CSS para las fuentes*/
+
+/*Fuente Edo SZ*/
+@font-face {
+    font-family: 'Edo SZ';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Edo SZ'), url('../fuentes/edosz.woff') format('woff');
+    }
+
+/*Fuente Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
