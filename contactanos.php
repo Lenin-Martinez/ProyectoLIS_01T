@@ -21,12 +21,12 @@
     </div>
 
     <div class="Iniciar">
-        <img src="Imagenes/Index/IniciarSesionf.png" alt="error al cargar inicio de sesion" width="50">
+        <a href="Login.php" class="OpcionBarra"><img src="Imagenes/Index/IniciarSesionf.png" alt="error al cargar inicio de sesion" width="50"></a>
         <label>Iniciar sesión</label>
     </div>
 
     <div class="Registrar">
-        <img src="Imagenes/Index/Registratef.png" alt="error al cargar inicio de sesion" width="50">
+        <a href="registrarse.php" class="OpcionBarra"><img src="Imagenes/Index/Registratef.png" alt="error al cargar inicio de sesion" width="50"></a>
         <label>Registrate</label>
     </div>
 
@@ -80,7 +80,7 @@
     </div>
     
     <div class="Contacto">
-        <img src="Imagenes/Index/Contactanosf.png" alt="error al cargar inicio de sesion" width="50">
+        <a href="contactanos.php" class="OpcionBarra"><img src="Imagenes/Index/Contactanosf.png" alt="error al cargar imagen" width="50"></a>        
         <label>Contactanos</label>
     </div>
 </footer>
