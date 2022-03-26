@@ -9,16 +9,12 @@
 </head>
 
 <header>
-
     <div class="Logo">
-        <img src="Imagenes/Index/Tigre2.png" alt="error al cargar el logo" width="150">
+        <img src="Imagenes/Index/royal.png" alt="error al cargar el logo" width="100%">
     </div>
     <div class="Textos">
         <div class="Nombre">
-            Nombre de la veterinaria.
-        </div>
-        <div class="Eslogan">
-            Una frase o eslogan interesante para la pagina, algo que llame la atencion.
+            <img src="Imagenes/Index/indextop.png" alt="error al cargar imagen" width="100%">
         </div>
     </div>
 
@@ -45,13 +41,61 @@
         <a href="index.php" class="OpcionBarra">Inicio</a>
         <a href="Servicios.php" class="OpcionBarra">Servicios</a>
         <a href="Productos.php" class="OpcionBarra">Productos</a>
+        <a href="Conocenos.php" class="OpcionBarra">Conocenos</a>
+        <a href="contactanos.php" class="OpcionBarra">Contactanos</a>
     </div><br>
+
+    <div>
+                <h1 class="indextitle">PET RESCUE</h1>
+                <p class="indexdesc">Tu veterinaria de confianza desde 1998. Contamos con servicios veterinarios, pet grooming y pet shop. Especializados en el cuidado felino, canino y de reptiles. Consulta por nuestras promociones de verano, y descuentos con nuestra tarjeta de cliente frecuente "PET LOVERS".</p>
+    </div>
+
+    <p class="indextitle">RESEÑAS DE NUESTROS AMIGUITOS PELUDOS</p>
+
+    <div id="mainindex">
+        <div class="columna4"><img src="Imagenes/Index/post5.jpeg" alt="error al cargar imagen" width=431></div>
+        <div class="columna5"><img src="Imagenes/Index/post7.png" alt="error al cargar imagen" width=466></div>
+        <div class="columna6"><img src="Imagenes/Index/post6.jpg" alt="error al cargar imagen" width=410></div>
+    </div>
+
+    <div>
+        <table class="comentario">
+            <tr>
+                <td><img src="Imagenes/Index/comm1.png" alt="error al cargar imagen" width=225></td>
+                <td width=200>
+                    <p>@Thomas506</p>
+                    <p>Tommy Junior, esta encantado con los servicios de Pet Rescue, sin duda una de las mejores veterinarias, siempre muy amables y serviciales.</p>
+                </td>
+                <td><img src="Imagenes/Index/comm2.png" alt="error al cargar imagen" width=225></td>
+                <td width=200>
+                    <p>@Clint456</p>
+                    <p>Cuentan con excelentes instalanciones, amplio parqueo, y siempre en la pet shop encuentro todo lo que busco, totalmente recomendado.</p>
+                </td>
+                <td><img src="Imagenes/Index/comm3.png" alt="error al cargar imagen" width=225></td>
+                <td width=175>
+                    <p>@REX909</p>
+                    <p>Una veterinaria que atienda las necesidades de los reptiles no se ve todos los dias, totalmente equipado y capacitado.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <p class="indextitle">CONOCE NUESTRAS PROMOCIONES ESPECIALES PARA TI</p>
+    <div id="mainindex">
+        <div class="columna7"><img src="Imagenes/Index/post1.png" alt="error al cargar imagen" width="250"></div>
+        <div class="columna7"><img src="Imagenes/Index/post8.png" alt="error al cargar imagen" width="250"></div>
+        <div class="columna7"><img src="Imagenes/Index/post9.png" alt="error al cargar imagen" width="250"></div>
+        <div class="columna8"><img src="Imagenes/Index/post10.png" alt="error al cargar imagen" width="250"></div>
+
+    </div>
 </body>
 
 
+
 <footer>
+    <div class="BarraMenu"><p>PET RESCUE</p></div>
     <div class="Copyright">
-        copyright (C) ...
+        Copyright (C) Todos los derechos reservados.
     </div>
     
     <div class="Contacto">
