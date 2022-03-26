@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-signin-client_id" content="326246464465-m3r7rg6jkl67kd7hn8rflvue916r94lf.apps.googleusercontent.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/estiloIndex.css">
     <link rel="stylesheet" href="CSS/sesion.css">
@@ -61,9 +62,7 @@
             <div>
                 <button type="submit" class="boton1">Registrarse</button>
             </div>
-            <div>              
-                <button type="submit" class="boton1">Registrarse con Google</button>
-            </div>
+            <div  class="g-signin2" data-onsuccess="onSignIn"></div><br>
     </div>
 </body>
 <br>
@@ -79,3 +78,11 @@
     </div>
 </footer>
 </html>
+
+<!-- bootstrap -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
