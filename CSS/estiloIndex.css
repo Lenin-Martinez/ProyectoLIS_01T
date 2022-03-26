@@ -1,21 +1,19 @@
 header
 {
-    background-color: #2FAF63;
-
+    background-color: #34B5AA;
     height: 150px;
     font-family: 'Courier New', Courier, monospace;
 }
 footer
 {
-    background-color: #2FAF63;
+    background-color: #34B5AA;
 
     height: 115px;
     font-family: 'Courier New', Courier, monospace;
 }
 body
 {
-    background-color: darkslategrey;
-
+    background-color: #0E2C40;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -23,8 +21,8 @@ body
 .Logo
 {
     float: left;
-    width: 150px;
-    height: 150px;
+    width: 10%;
+    height: 10%;
 }
 .Textos
 {
@@ -33,15 +31,11 @@ body
     height: 150px;
 }
 .Nombre
-{
+{   
+    padding-left: 5%;
     margin-top: 5%;
-    font-size: 25px;
+    font-size: 50px;
     font-weight: bold;
-}
-.Eslogan
-{
-    font-size: 20px;
-    padding-left: 15%;
 }
 
 .Iniciar
@@ -77,15 +71,14 @@ body
     color: black;
     text-decoration: none;
 }
-
 .Copyright
 {
     float: left;
-    width: 150px;
-    height: 60px;
+    width: 300px;
     padding-top: 2%;
-    text-align: center;
+    padding-right: 2px;
     margin-left: 2%;
+    font-weight: bold;
 }
 .Contacto
 {
@@ -93,15 +86,16 @@ body
     width: 90px;
     height: 60px;
     text-align: center;
-    margin-top: 1%;
-    margin-left: 75%;
+    margin-left: 65%;
     color: black;
     text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 2px;
 }
 .BarraMenu
 {
     background-color: #B2ED33;
-
+    font-weight: bold;
     text-align: center;
 }
 .OpcionBarra
@@ -110,3 +104,19 @@ body
     text-decoration: none;
     margin-left: 3%;
 }
+
+.columna2{background-color: #0E2C40; padding-right: 0.2%; margin-right: 0.5%;
+    padding-bottom: 2.5%;}
+
+.indexdesc{font-size: 20px;text-align: center;margin: 30px;font-style: "Color: blue";color: white;}
+.indextitle{font-size: 40px;text-align: center;font-family: Helvetica;color: white;}
+
+.columna4{padding: 2px;float: left; padding-top: 0px;}
+.columna5{padding: 2px;float: left; padding-top: 0px;}
+.columna6{padding-bottom: 1%;padding-left: 2px;}
+
+.comentario{color: white;font-size: 15px; width: 100%;}
+.columna7{padding: 2px;float: left; padding-top: 0px;margin-right: 50px; margin-left: 35px;}
+.columna8{padding-bottom: 1%;padding-left: 2px;}
+
+.Servicios{padding-left: 130px; padding-right: 60px;}
