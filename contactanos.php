@@ -44,6 +44,7 @@
         <a href="Servicios.php" class="OpcionBarra">Servicios</a>
         <a href="Productos.php" class="OpcionBarra">Productos</a>
         <a href="Conocenos.php" class="OpcionBarra">Conocenos</a>
+        <a href="contactanos.php" class="OpcionBarra">Contactanos</a>
     </div><br>
 
     <section>
