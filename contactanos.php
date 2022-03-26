@@ -4,42 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estiloIndex.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/contactanos.css">
+    <link rel="stylesheet" href="CSS/fonts.css">
+    <link rel="stylesheet" href="CSS/contactanos.css">
+    <link rel="stylesheet" href="CSS/estiloIndex.css">
     <title>Inicio</title>
 </head>
+
 <header>
     <div class="Logo">
-        <img src="Imagenes/Index/Tigre2.png" alt="error al cargar el logo" width="150">
+        <img src="Imagenes/Index/royal.png" alt="error al cargar el logo" width="100%">
     </div>
     <div class="Textos">
         <div class="Nombre">
-            Nombre de la veterinaria.
-        </div>
-        <div class="Eslogan">
-            Una frase o eslogan interesante para la pagina, algo que llame la atencion.
+            <img src="Imagenes/Index/indextop.png" alt="error al cargar imagen" width="100%">
         </div>
     </div>
+
     <div class="Iniciar">
         <img src="Imagenes/Index/IniciarSesionf.png" alt="error al cargar inicio de sesion" width="50">
         <label>Iniciar sesión</label>
     </div>
+
     <div class="Registrar">
         <img src="Imagenes/Index/Registratef.png" alt="error al cargar inicio de sesion" width="50">
         <label>Registrate</label>
     </div>
+
     <div class="Informacion">
         <img src="Imagenes/Index/Infof.png" alt="error al cargar inicio de sesion" width="50">
         <label>Información</label>
     </div>
+
 </header>
+
+
 <body>
     <div class="BarraMenu">
         <a href="index.php" class="OpcionBarra">Inicio</a>
         <a href="Servicios.php" class="OpcionBarra">Servicios</a>
         <a href="Productos.php" class="OpcionBarra">Productos</a>
+        <a href="Conocenos.php" class="OpcionBarra">Conocenos</a>
     </div><br>
+
     <section>
     <form class="form-contacto">
             <h2 class="encabezado">Dejanos tu mensaje y nosotros te daremos respuesta lo más pronto posible</h2>
@@ -61,10 +67,15 @@
             </div>
         </form>
     </section>
+
 </body>
+
+
+
 <footer>
+    <div class="BarraMenu"><p>PET RESCUE</p></div>
     <div class="Copyright">
-        copyright (C) ...
+        Copyright (C) Todos los derechos reservados.
     </div>
     
     <div class="Contacto">
