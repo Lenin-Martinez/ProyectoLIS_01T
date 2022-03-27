@@ -56,3 +56,16 @@
     text-align: center;
 
 }
+
+.cmb{
+    color: black;
+    font-family: 'Tahoma';
+    font-size: 18px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.acceder{
+    text-align: center;
+    padding-left: 45%;
+}
