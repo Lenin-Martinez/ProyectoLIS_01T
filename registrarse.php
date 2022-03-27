@@ -45,7 +45,7 @@
         <a href="contactanos.php" class="OpcionBarra">Contactanos</a>
     </div><br>
 
-    <h2 class="indextitle">Registro de Usuario</h2>
+   <h2 class="indextitle">Registro de Usuario</h2>
     <div class="section1">
             <label>
                 <p class="camponame">Nombre:</p>
@@ -62,7 +62,10 @@
             <div>
                 <button type="submit" class="boton1">Registrarse</button>
             </div>
+           </div><br>
+        <div class="acceder">
             <div  class="g-signin2" data-onsuccess="onSignIn"></div><br>
+    </div><br>
     </div>
 </body>
 <br>
