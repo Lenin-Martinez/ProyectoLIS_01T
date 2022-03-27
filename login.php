@@ -45,7 +45,7 @@
         <a href="contactanos.php" class="OpcionBarra">Contactanos</a>
     </div><br>
 
-<h2 class="indextitle">Inicio de Sesión</h2>
+<<h2 class="indextitle">Inicio de Sesión</h2>
     <div class="section1">
             <label>
                 <p class="camponame">Nombre:</p>
@@ -58,6 +58,8 @@
             <div>
                 <button type="submit" class="boton1">Iniciar Sesión</button>
             </div>
+        </div><br>
+        <div class="acceder">
             <div  class="g-signin2" data-onsuccess="onSignIn"></div><br>
     </div>
 </body>
