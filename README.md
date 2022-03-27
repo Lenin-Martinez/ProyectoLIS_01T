@@ -19,7 +19,7 @@ Manual de Usuario
 [https://drive.google.com/file/d/1M_H6F3izKPpQs9Kr9fwMgXZT9sy8H81A/view?usp=sharing]
 
 Manual Tecnico
-https://drive.google.com/file/d/1WaU_hIwxvb-8Ze-D69vrDHTTGvonwaW0/view?usp=sharing
+[https://drive.google.com/file/d/1WaU_hIwxvb-8Ze-D69vrDHTTGvonwaW0/view?usp=sharing]
 
 ------------
 #### Licencias implementadas
