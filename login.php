@@ -45,8 +45,9 @@
         <a href="contactanos.php" class="OpcionBarra">Contactanos</a>
     </div><br>
 
-<<h2 class="indextitle">Inicio de Sesión</h2>
+<h2 class="indextitle">Inicio de Sesión</h2>
     <div class="section1">
+        <form method="POST">
             <label>
                 <p class="camponame">Nombre:</p>
                 <input type="text" id="nombre" name="nombre" class="campo" placeholder="Ingrese aqui su nombre" required>
@@ -56,12 +57,13 @@
                 <input type="text" id="contra" name="contra" class="campo" placeholder="Ingrese aqui su contraseña" required>
             </label>
             <div>
-                <button type="submit" class="boton1">Iniciar Sesión</button>
+                <button type="submit" class="boton1" name="IniciarS">Iniciar Sesión</button>
             </div>
         </div><br>
         <div class="acceder">
             <div  class="g-signin2" data-onsuccess="onSignIn"></div><br>
     </div>
+</form>
 </body>
 
 <footer>
@@ -84,3 +86,43 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+<?php
+if(isset($_POST["IniciarS"]))
+{
+    if((!empty($_POST["nombre"])) && (!empty($_POST["contra"])))
+    {
+        $Nombre=$_POST["nombre"];
+        $Contrasenia=$_POST["contra"];
+
+        IniciarS($Nombre, $Contrasenia);
+    }
+}
+
+
+
+
+function IniciarS($Nombre, $Contrasenia)
+{
+    $url= "https://pet-rescue-57447-default-rtdb.firebaseio.com/Usuarios.json";
+
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    
+    $DatosObtenidos = curl_exec($ch);
+    curl_close($ch);
+
+    $Resultados = json_decode($DatosObtenidos,true);
+
+    //Es el numero del indice
+    $a = array_search(array_column($Nombre), array_column($Resultados,'Nombre'));
+    $b = array_search($Contrasenia, array_column($Resultados,'Contrasenia'));
+
+    if($a == $b)
+    {
+        header("Location: Servicios.php");
+    }
+}
+?>
