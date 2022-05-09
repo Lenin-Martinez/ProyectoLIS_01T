@@ -20,6 +20,66 @@
     margin-bottom: 0.5em;
 }
 
+.tas {
+    /*Bordes*/
+    width: 80%;
+    background-color: white;
+   border: 3px solid #000;
+   margin-left: 10%;
+   margin-right: 5%;
+   color: black;
+   font-weight: bold;
+}
+
+.servi {
+    width: 25%;
+   text-align: left;
+   vertical-align: center;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+ }
+
+ .tas2 {
+    /*Bordes*/
+    width: 26%;
+   color: white;
+   text-align: center;
+   float: left;
+   margin-left: 4%;
+}
+
+.prod{
+    vertical-align: bottom;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.prodname{
+    vertical-align: bottom;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.tablamayor{
+    margin-bottom: 5%;
+}
+
+.prodimg{
+    margin-bottom: 5%;
+    padding-top: 15%;
+    vertical-align: bottom;
+}
+ .titulostabla{
+     font-size: 20px;
+ }
+
+ .imagenes{
+     width: 150px;
+ }
+
 .boton1 {
     /*Margenes*/
     margin-top: 1em;
