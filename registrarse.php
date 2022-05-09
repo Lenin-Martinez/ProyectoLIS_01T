@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/estiloIndex.css">
     <link rel="stylesheet" href="CSS/sesion.css">
-    <title>Inicio</title>
+    <title>Pet Rescue</title>
 </head>
 
 <header>
@@ -31,7 +31,7 @@
 
     <div class="Informacion">
         <img src="Imagenes/Index/Infof.png" alt="error al cargar inicio de sesion" width="50">
-        <label>Información</label>
+        <label class="OpcionBarra">Información</label>
     </div>
 
 </header>
@@ -44,7 +44,35 @@
         <a href="Conocenos.php" class="OpcionBarra">Conocenos</a>
         <a href="contactanos.php" class="OpcionBarra">Contactanos</a>
     </div><br>
+<form method="POST">
+<?php
 
+if(isset($_POST["btn1"]))
+{
+    if((!empty($_POST["nombre"])) && (!empty($_POST["contra"])))
+    {
+
+        $nombre=$_POST["nombre"];
+        $contra=$_POST["contra"];
+        $correo=$_POST["correo"];
+        $basedatos = "pets";
+        $conn = new mysqli('127.0.0.1', 'root', '',$basedatos);
+        $consult1="SELECT COUNT(*) AS total FROM usuarios WHERE usuario='$nombre';";
+        $CheckUser = mysqli_query($conn,$consult1); 
+        $row = mysqli_fetch_assoc($CheckUser);   
+        if($row['total'] == '0'){
+            $consulta = "INSERT INTO usuarios (usuario, contrasenia,correo,estado) VALUES ('$nombre', '$contra','$correo','desactivado');";
+            $InsertUserNew = mysqli_query($conn,$consulta);
+            echo '<p class="camponame">Ingreso Exitoso!</p>';
+        }else{
+            echo '<p class="camponame">El nombre de usuario no esta disponible. Intente de nuevo.</p>';
+        }
+    }
+    else
+    {
+    }
+}
+?>
    <h2 class="indextitle">Registro de Usuario</h2>
     <div class="section1">
             <label>
@@ -60,13 +88,14 @@
                 <input type="email" id="correo" name="correo" class="campo" placeholder="Ingrese aqui su correo electronico" required>
             </label>
             <div>
-                <button type="submit" class="boton1">Registrarse</button>
+                <button type="submit" class="boton1" name="btn1" id="btn1">Registrarse</button>
             </div>
            </div><br>
         <div class="acceder">
             <div  class="g-signin2" data-onsuccess="onSignIn"></div><br>
     </div><br>
     </div>
+</form>
 </body>
 <br>
 <footer>
