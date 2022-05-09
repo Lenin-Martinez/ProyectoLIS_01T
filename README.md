@@ -8,7 +8,7 @@ Sitio web de una veterinaria que busca ofrecer sus productos y servicios.
 
 #### Enlaces de interes
 
-[WorkFlow en Trello](https://trello.com/b/fI9FvrOR/proyecto-lis-01t)
+[WorkFlow en Trello](https://trello.com/invite/b/fI9FvrOR/d8010f41346eb5f9facada7114df6481/proyecto-lis-01t)
 
 [Diseño UI/UX en Figma](https://www.figma.com/file/pyrfeaGnNi8buLMdFFX32I/Mock-Ups?node-id=0%3A1)
 
